@@ -48,8 +48,19 @@ public:
         {
             for(int j = 0; j < (matrix.size()/2); j++)//Divido por 2 porqu é o meio da matriz
             {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[i][matrix.size()-1-j];
+                int temp = matrix[i][j];//elemento atual
+                /*
+                O elemento atual é igual ao comprimento final 
+                então o valor da coluna inicial, o primeiro ponto 
+                é igual ao segundo ponto que está começando do final.
+                Entao nos fazemos o comprimento - 1 e obtemos a
+                posicao do indice j e isso vai ser a mesma distancia
+                do inicio pro fim desses pontos.
+                ...
+                Entao é isso troco os elementos da matriz causando um giro 
+                e depois troco os pontos das colunas.
+                */
+                matrix[i][j] = matrix[i][matrix.size()-1-j];//
                 matrix[i][matrix.size()-1-j] = temp;
             }
         }
