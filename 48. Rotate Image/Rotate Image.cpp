@@ -1,4 +1,6 @@
 /*
+Explicacao da Solucao
+
 i = 0, j = 0;
 temp = matrix[0][0]; //1
 matriz[0][0] = matriz[0][0]; //1
