@@ -21,7 +21,7 @@ A ideia era primeiramente transpor a matriz e entao trocar ela simetricamente. P
 4 5 6
 7 8 9
 
-depois de transpor eu vou trocar uso o swap(matrix[i][j], matrix[j][i])
+depois de transpor eu vou trocar, caso queira pode usar o swap(matrix[i][j], matrix[j][i])
 1 4 7
 2 5 8
 3 6 9
