@@ -1,5 +1,5 @@
 /*
-Se substituir por numeros la ver melhor o padrao.
+Se substituir por numeros nessa tabela ver melhor o padrao.
 n = numRows
 Δ=2n-2    1                           2n-1                         4n-3
 Δ=        2                     2n-2  2n                    4n-4   4n-2
