@@ -57,8 +57,8 @@ public:
                 posicao do indice j e isso vai ser a mesma distancia
                 do inicio pro fim desses pontos.
                 ...
-                Entao é isso troco os elementos da matriz causando um giro 
-                e depois troco os pontos das colunas.
+                Entao é isso inverto os elementos pra cada linha da da matriz(loop acima) 
+                depois dou um giro invertendo os elementos das colunas.
                 */
                 matrix[i][j] = matrix[i][matrix.size()-1-j];//
                 matrix[i][matrix.size()-1-j] = temp;
