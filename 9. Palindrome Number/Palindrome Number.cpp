@@ -11,7 +11,7 @@ public:
 	}
         //Na questao diz que -121 nao é palindromo porque o contrario é 121-
         //E tambem tem que se atentar que 0 é palindromo tambem, foi uma pegadinha caso voce so botasse x > 0.
-        //Poderia ser feito com string mas ele desafia a fazer assim com inteiros entao foi como fiz...
+        //Poderia ser feito com string mas o desafi é fazer com inteiros entao foi como fiz...
 	if (x == s && x >= 0) return true;  
 	else return false;
     }
